@@ -14,10 +14,10 @@ INSERT INTO positions (position_title, basic_salary) VALUES
 ('Marketing Executive', 40000.00);
 
 INSERT INTO employees (first_name, last_name, department_id, position_id, hire_date) VALUES
-('John', 'Doe', 1, 1, '2020-01-15'),         -- emp_id 1
-('Alice', 'Smith', 2, 2, '2021-06-20'),      -- emp_id 2
-('Bob', 'Brown', 3, 3, '2019-11-05'),        -- emp_id 3
-('Clara', 'Jones', 4, 4, '2022-02-10');      -- emp_id 4
+('Swagat', 'Pradhan', 1, 1, '2020-01-15'),         -- emp_id 1
+('Nikhil', 'Baran', 2, 2, '2021-06-20'),      -- emp_id 2
+('Boby', 'Brar', 3, 3, '2019-11-05'),        -- emp_id 3
+('Shree', 'Pradhan', 4, 4, '2022-02-10');      -- emp_id 4
 
 INSERT INTO salaries (emp_id, month, year, basic, hra, da, deductions, net_salary) VALUES
 (1, 'July', 2025, 50000.00, 10000.00, 5000.00, 2000.00, 63000.00),
